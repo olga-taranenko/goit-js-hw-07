@@ -1,0 +1,34 @@
+div {
+  border-radius: 8px;
+  width: auto;
+  background-color: #f6f6fe;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: baseline;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+}
+
+button:last-child {
+  background-color: #ff4e4e;
+}
+
+button:last-child:hover {
+  background-color: #ff7070;
+}

@@ -1,0 +1,14 @@
+function getRandomHexColor() {
+  return `#${Math.floor(Math.random() * 16777215)
+    .toString(16)
+    .padStart(6, 0)}`;
+}
+
+const onBtnElem = document.querySelector('.change-color');
+const outputTextColor = document.querySelector('.color');
+
+onBtnElem.addEventListener('click', function () {
+  const randomColor = getRandomHexColor();
+  document.body.style.backgroundColor = randomColor;
+  outputTextColor.textContent = randomColor;
+});

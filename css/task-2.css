@@ -1,0 +1,19 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+li {
+  display: block;
+  flex-basis: calc((100% - 2 * 24px) / 3);
+  width: 360px;
+  height: 300px;
+}
